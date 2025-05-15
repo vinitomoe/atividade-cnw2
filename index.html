@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Camisas de Time - Camisa do Santos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #002b45;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-bottom: 5px solid #0288d1;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            background-color: #ffffff;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin-top: 40px;
+            border-radius: 10px;
+        }
+
+        .product-card {
+            text-align: center;
+            width: 350px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-card img {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .product-card h2 {
+            font-size: 1.8em;
+            margin: 20px 0;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .price {
+            font-size: 1.6em;
+            color: #0288d1;
+            margin: 10px 0;
+        }
+
+        .description {
+            font-size: 1em;
+            color: #777;
+            margin-bottom: 20px;
+            padding: 0 10px;
+        }
+
+        .buy-button {
+            display: inline-block;
+            background-color: #0288d1;
+            color: white;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .buy-button:hover {
+            background-color: #01579b;
+        }
+
+        footer {
+            background-color: #002b45;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .product-container {
+                flex-direction: column;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Camisa Oficial do Santos FC 2025</h1>
+</header>
+
+<div class="product-container">
+    <div class="product-card">
+        <img src="C:\Users\ALUNOS\Downloads\2IB-1489-158_zoom1.webp" alt="Camisa do Santos">
+        <h2>Camisa do Santos FC - 2025</h2>
+        <p class="price">R$ 159,90</p>
+        <p class="description">
+            A camisa oficial do Santos FC 2025 é feita com material respirável e confortável. Ideal para os torcedores
+            do Peixe, ela é perfeita para acompanhar os jogos e exibir seu apoio ao time. Disponível em diversos tamanhos.
+        </p>
+        <button class="buy-button">Comprar Agora</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Loja de Camisas de Times. Todos os direitos reservados. <br> <a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+</footer>
+
+</body>
+</html>
